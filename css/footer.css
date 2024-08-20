@@ -1,0 +1,42 @@
+.contato {
+  font-family: "Moderustic", sans-serif;
+  max-width: 1200px;
+  padding: 80px 0px 100px 0px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contato h3 {
+  font-size: 24px;
+  padding-bottom: 24px;
+  color: #ccc;
+}
+
+.contato p {
+  font-size: 18px;
+  color: #ccc;
+  padding-bottom: 12px;
+}
+
+.contato a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width: 1300px) {
+  .contato {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contato h3 {
+    font-size: 20px;
+  }
+
+  .contato p,
+  .contato a {
+    font-size: 16px;
+  }
+}

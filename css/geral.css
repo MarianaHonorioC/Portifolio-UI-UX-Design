@@ -1,0 +1,30 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h3,
+h2,
+p {
+  margin: 0px;
+}
+
+.bg {
+  background-color: #111;
+  color: #f7f7f7;
+}
+
+.bg2 {
+  background-color: #000;
+  color: #ccc;
+}
+
+.bgconteudo {
+  background-color: #f7f7f7;
+}

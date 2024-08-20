@@ -1,0 +1,175 @@
+/* Ocultar o checkbox para não aparecer na tela */
+#menu-toggle {
+  display: none;
+}
+
+/* Resto do estilo permanece o mesmo */
+.bgmenu {
+  background-color: #111;
+  color: #f7f7f7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Moderustic", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nome {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #f7f7f7;
+}
+
+.menu nav a {
+  text-decoration: none;
+  color: #f7f7f7;
+  margin-left: 24px;
+}
+
+.cont {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 5px 10px;
+  background: #b13deb;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+nav {
+  text-align: right;
+  align-items: center;
+}
+
+/* Estilo do ícone do menu hamburguer */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  position: relative;
+}
+
+.menu-icon span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #f7f7f7;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+@media (max-width: 1300px) {
+  .menu {
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Exibir o ícone do menu hamburguer */
+  .menu-icon {
+    display: block;
+  }
+
+  /* Ajustar o menu para exibição como um dropdown */
+  .botao {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    background-color: #111;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    text-align: center;
+  }
+
+  .menu.open .botao {
+    display: flex;
+  }
+
+  .menu h3 {
+    font-size: 18px;
+  }
+
+  .menu nav a {
+    margin-left: 0;
+    padding: 10px 5px;
+  }
+
+  nav {
+    padding-bottom: 20px;
+  }
+
+  .menu-icon.open span:nth-child(1) {
+    transform: rotate(45deg) translateY(10px);
+  }
+
+  .menu-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
+  }
+}
+
+@media (min-width: 901px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .botao {
+    display: flex;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    height: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .nome {
+    gap: 12px;
+  }
+
+  .botao {
+    top: 50px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+}

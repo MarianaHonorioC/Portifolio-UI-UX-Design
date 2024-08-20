@@ -1,0 +1,253 @@
+.paleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding-right: 160px;
+  margin-left: -60px;
+}
+
+.paleta h3 {
+  margin: 0px;
+  padding: 5px 20px;
+  color: #f7f7f7;
+  border-radius: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.paleta h2 {
+  margin: 0px;
+  padding: 5px 20px;
+  color: #2e2e2e;
+  border-radius: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .paleta {
+    padding-right: 100px;
+    margin-left: -0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .paleta {
+    gap: 20px;
+    padding-right: 60px;
+  }
+
+  .paleta h3 {
+    padding: 2px 20px;
+    font-size: 10px;
+  }
+
+  .paleta h2 {
+    padding: 2px 20px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .paleta {
+    padding-right: 20px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .paleta h3,
+  .paleta h2 {
+    padding-bottom: 40px;
+  }
+
+  .paleta {
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .paleta {
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .paleta {
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 510px) {
+  .paleta {
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 415px) {
+  .paleta h3,
+  .paleta h2 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .paleta {
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .paleta h3,
+  .paleta h2 {
+    padding-bottom: 20px;
+  }
+}
+
+/*Planned Garden*/
+
+.pg1 {
+  background-color: #061500;
+}
+.pg2 {
+  background-color: #062102;
+}
+.pg3 {
+  background-color: #0b3307;
+}
+.pg4 {
+  background-color: #135b0d;
+}
+.pg5 {
+  background-color: #167d2d;
+}
+.pg6 {
+  background-color: #259b4d;
+}
+.pg7 {
+  background-color: #a1b79f;
+}
+.pg8 {
+  background-color: #d0e5cf;
+}
+.pg9 {
+  background-color: #74381d;
+}
+.pg10 {
+  background-color: #f4e1d9;
+}
+.pg11 {
+  background-color: #f3f8f2;
+}
+.pg12 {
+  background-color: #ffffff;
+}
+
+/*Essenza*/
+
+.ess1 {
+  background-color: #2d2c2c;
+}
+
+.ess2 {
+  background-color: #3a1f2a;
+}
+.ess3 {
+  background-color: #90586f;
+}
+.ess4 {
+  background-color: #4e3640;
+}
+.ess5 {
+  background-color: #90586f;
+}
+.ess6 {
+  background-color: #b47c93;
+}
+.ess7 {
+  background-color: #cc9aaf;
+}
+.ess8 {
+  background-color: #e0c5d0;
+}
+.ess9 {
+  background-color: #ebe2e6;
+}
+.ess10 {
+  background-color: #f3dce5;
+}
+
+.ess11 {
+  background-color: #fff3f8;
+}
+
+.ess12 {
+  background-color: #fe8989;
+}
+
+.ess13 {
+  background-color: #78df8b;
+}
+
+/*Adote um amigo*/
+
+.ad1 {
+  background-color: #000239;
+}
+
+.ad2 {
+  background-color: #031333;
+}
+.ad3 {
+  background-color: #081b40;
+}
+.ad4 {
+  background-color: #12274f;
+}
+.ad5 {
+  background-color: #253c6a;
+}
+.ad6 {
+  background-color: #324e86;
+}
+.ad7 {
+  background-color: #3a5ea3;
+}
+.ad8 {
+  background-color: #081b40;
+}
+.ad9 {
+  background-color: #a7c0f0;
+}
+
+.ad10 {
+  background-color: #cadafa;
+}
+.ad11 {
+  background-color: #d3d8e2;
+}
+.ad12 {
+  background-color: #dae3f6;
+}
+.ad13 {
+  background-color: #ecf2fd;
+}
+.ad14 {
+  background-color: #f2f4f8;
+}
+.ad15 {
+  background-color: #783b03;
+}
+
+.ad16 {
+  background-color: #914c0c;
+}
+.ad17 {
+  background-color: #bc712b;
+}
+.ad18 {
+  background-color: #d38c4a;
+}
